@@ -1,0 +1,256 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 9356,
+      "max": [
+        0.97948062419891357,
+        0.98504310846328735,
+        0.98065268993377686
+      ],
+      "min": [
+        -0.97948044538497925,
+        -0.98504310846328735,
+        -0.97985339164733887
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 112272,
+      "componentType": 5126,
+      "count": 9356,
+      "max": [
+        0.99984121322631836,
+        1,
+        0.99992692470550537
+      ],
+      "min": [
+        -0.99984121322631836,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 9356,
+      "max": [
+        1,
+        0.89151805639266968,
+        1,
+        1
+      ],
+      "min": [
+        -0.99964267015457153,
+        -0.99643754959106445,
+        -1,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 9356,
+      "max": [
+        0.99242424964904785,
+        0.4723820686340332
+      ],
+      "min": [
+        0.0075757508166134357,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 26928,
+      "max": [
+        9355
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "MSerdar Tekin (https://sketchfab.com/teriologia)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/bowling-ball-fc8f1162901a4e38b506fe1ab229f296",
+      "title": "Bowling Ball"
+    },
+    "generator": "Sketchfab-6.25.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 107712,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 74848,
+      "byteOffset": 107712,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 224544,
+      "byteOffset": 182560,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 149696,
+      "byteOffset": 407104,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 556800,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Material.001",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0022728800000000001,
+          0.0046769000000000003,
+          0.0374103,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.14999999999999999
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "root"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.2204460492503131e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.2204460492503131e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "GLTF_SceneRootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        0.14000000059604645,
+        0,
+        0,
+        0,
+        0,
+        0.14000000059604645,
+        0,
+        0,
+        0,
+        0,
+        0.14000001549720764,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Icosphere_2"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
